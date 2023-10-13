@@ -37,7 +37,7 @@ public class Product {
     @Enumerated(EnumType.STRING)
     private DeliveryAvailable deliveryAvailable;
     //
-    private LocalDateTime purchaseData;
+    private LocalDateTime purchaseDate;
     private String imageUrl;
     private String description;
 
