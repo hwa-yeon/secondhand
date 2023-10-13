@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/products")
 public class ProductController {
 
-/*    //상품목록 (검색 포함)
+/*
+    //상품목록 (검색 포함)
     @GetMapping
 
     //상품등록
@@ -26,5 +27,9 @@ public class ProductController {
     @PostMapping("/{productId}/edit")
 
     //상품삭제
-    @PostMapping("/{productId}/delete")*/
+    @PostMapping("/{productId}/delete")
+
+    //상품 찜
+    @PostMapping("/{productId}/favorite")
+    */
 }

@@ -11,7 +11,10 @@ public class UserController {
 /*
     // 유저 프로필
     @GetMapping("/{userId}/profile")
+
+    // 유저 프로필 업데이트
+    @GetMapping("/{userId}/profile/update")
+
+    @PostMapping("/{userId}/profile/update")
 */
-
-
 }
